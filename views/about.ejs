@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - SkyWings Airlines</title>
+    <style>
+        /* General Styles */
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f4f8;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        header {
+            width: 100%;
+            background-color: #0073e6;
+            padding: 15px 0;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Navigation Bar */
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            background-color: #005bb5;
+        }
+
+        /* Main Content */
+        .container {
+            max-width: 900px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            color: #0073e6;
+            text-align: center;
+        }
+
+        p {
+            font-size: 1.2em;
+            line-height: 1.6;
+            margin-top: 20px;
+        }
+
+        .highlights {
+            display: flex;
+            justify-content: space-around;
+            margin: 30px 0;
+        }
+
+        .highlights div {
+            width: 30%;
+            background-color: #e8f0fe;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        .highlights div h3 {
+            color: #005bb5;
+            font-size: 1.5em;
+        }
+
+        .highlights div p {
+            font-size: 1em;
+            color: #333;
+        }
+
+        footer {
+            margin-top: auto;
+            background-color: #333;
+            padding: 10px;
+            width: 100%;
+            text-align: center;
+            color: white;
+        }
+
+        @media (max-width: 768px) {
+            .highlights {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .highlights div {
+                width: 80%;
+                margin-bottom: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/index">Home</a></li>
+                <li><a href="/about">About Us</a></li>
+                <li><a href="/contacts">Contacts</a></li>
+                <li><a href="/register">Register</a></li>
+                <li><a href="/login">Log In</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h1>About SkyWings Airlines</h1>
+        <p>
+            SkyWings Airlines is committed to providing world-class air travel experiences to our passengers.
+            With a fleet of over 200 aircraft, we fly to more than 100 destinations around the world, ensuring safety, comfort, and exceptional service.
+            Our mission is to connect people, cultures, and ideas while fostering sustainable aviation practices.
+        </p>
+
+        <div class="highlights">
+            <div>
+                <h3>Global Network</h3>
+                <p>
+                    Over 100 destinations across 6 continents. Experience the world with SkyWings.
+                </p>
+            </div>
+            <div>
+                <h3>Modern Fleet</h3>
+                <p>
+                    Our state-of-the-art fleet ensures comfort, safety, and efficiency in every flight.
+                </p>
+            </div>
+            <div>
+                <h3>Customer Satisfaction</h3>
+                <p>
+                    Ranked among the top airlines globally for customer service and passenger satisfaction.
+                </p>
+            </div>
+        </div>
+
+        <p>
+            Whether you're flying for business or leisure, SkyWings Airlines promises a seamless journey with unparalleled in-flight services, including premium dining, on-demand entertainment, and comfortable seating options.
+            We are also committed to minimizing our carbon footprint by adopting cutting-edge sustainable aviation technologies.
+        </p>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 SkyWings Airlines. All rights reserved.</p>
+    </footer>
+</body>
+</html>

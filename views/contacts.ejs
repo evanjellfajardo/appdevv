@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - SkyWings Airlines</title>
+    <style>
+       
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        header {
+            width: 100%;
+            background-color: #0073e6;
+            padding: 15px 0;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            background-color: #005bb5;
+        }
+
+        
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            color: #0073e6;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        p {
+            font-size: 1.2em;
+            line-height: 1.6;
+            margin-top: 10px;
+        }
+
+        .contact-info {
+            margin: 30px 0;
+        }
+
+        .contact-info div {
+            margin-bottom: 15px;
+        }
+
+        .contact-info div span {
+            font-weight: bold;
+            color: #0073e6;
+        }
+
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+            margin-top: 30px;
+        }
+
+        .contact-form input, 
+        .contact-form textarea {
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 1em;
+            width: 100%;
+        }
+
+        .contact-form button {
+            background-color: #0073e6;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            font-size: 1.2em;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .contact-form button:hover {
+            background-color: #005bb5;
+        }
+
+       
+        footer {
+            margin-top: 50px;
+            background-color: #333;
+            padding: 20px;
+            width: 100%;
+            text-align: center;
+            color: white;
+        }
+
+        
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2em;
+            }
+
+            p {
+                font-size: 1em;
+            }
+
+            .container {
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/index">Home</a></li>
+                <li><a href="/about">About Us</a></li>
+                <li><a href="/contacts">Contacts</a></li>
+                <li><a href="/register">Register</a></li>
+                <li><a href="/login">Log In</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h1>Contact SkyWings Airlines</h1>
+
+        <div class="contact-info">
+            <div>
+                <span>Customer Service:</span> +1-800-123-4567 (Available 24/7)
+            </div>
+            <div>
+                <span>Email:</span> support@skywings.com
+            </div>
+            <div>
+                <span>Head Office Address:</span> 123 Airline Ave, Suite 500, New York, NY 10001
+            </div>
+        </div>
+
+        <h2>Get in Touch</h2>
+        <form class="contact-form" action="/submit-contact" method="post">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" rows="6" placeholder="Your Message" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 SkyWings Airlines. Follow us on 
+            <a href="#" style="color: #1da1f2;">Twitter</a>, 
+            <a href="#" 
